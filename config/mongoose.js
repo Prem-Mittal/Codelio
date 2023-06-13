@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+mongoose.set('useCreateIndex', true);
 
 mongoose.connect('mongodb://127.0.0.1/codeial_development',{ useNewUrlParser: true ,useUnifiedTopology: true});
 
